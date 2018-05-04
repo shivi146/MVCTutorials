@@ -1,0 +1,48 @@
+﻿@model MVCDemo_DisplayEmpDetails.Models.Employee
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<table>
+    <tr>
+        <td>
+            Employee Id:
+        </td>
+        <td>
+            @Model.EmployeeID
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Employee Name:
+        </td>
+        <td>
+            @Model.Name
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Employee Gender:
+        </td>
+        <td>
+            @Model.Gender
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Employee City:
+        </td>
+        <td>
+            @Model.City
+
+        </td>
+    </tr>
+
+</table>
